@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/safari-app/static/css/main.31d6cfe0.css",
-    "main.js": "/safari-app/static/js/main.ba2a5c07.js",
+    "main.js": "/safari-app/static/js/main.eeb0a775.js",
     "static/js/787.9b760892.chunk.js": "/safari-app/static/js/787.9b760892.chunk.js",
     "index.html": "/safari-app/index.html",
-    "main.ba2a5c07.js.map": "/safari-app/static/js/main.ba2a5c07.js.map",
+    "main.eeb0a775.js.map": "/safari-app/static/js/main.eeb0a775.js.map",
     "787.9b760892.chunk.js.map": "/safari-app/static/js/787.9b760892.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.ba2a5c07.js"
+    "static/js/main.eeb0a775.js"
   ]
 }
