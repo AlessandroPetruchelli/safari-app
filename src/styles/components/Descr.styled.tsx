@@ -1,10 +1,15 @@
 import { styled } from "styled-components";
 
-export const Descr = styled.p`
+type DescrPropsType = {
+  color?: string
+  fontSize?: string
+}
+
+export const Descr = styled.p<DescrPropsType>`
   max-width: 260px;
-  color: #ABB3BA;
-  font-size: 14px;
+  color: ${props => props.color || '#ABB3BA'};
+  font-size: ${props => props.fontSize || '12px'};
   font-weight: 500;
   line-height: 20px;
-  margin: 0 0 19px 10px;
-`
+  margin-bottom: 19px;
+` 
