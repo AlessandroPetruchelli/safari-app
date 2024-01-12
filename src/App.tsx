@@ -5,7 +5,7 @@ import { Card } from './styles/components/Card.styled';
 import { CardImage } from './styles/components/CardImage.styled';
 import { Title } from './styles/components/Title.styled';
 import { Descr } from './styles/components/Descr.styled';
-import { PrimaryBtn, SecondaryBtn } from './styles/components/Btn';
+import { Btn } from './styles/components/Btn';
 import cardImg from './assets/images/img.jpg';
 import { BoxBtn } from './styles/components/BoxBtn.styled';
 
@@ -21,8 +21,8 @@ function App() {
               Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie
               ornare in venen.
             </Descr>
-            <PrimaryBtn colorBgc='#4e71fe' color='#efbcbc'>See more</PrimaryBtn>
-            <SecondaryBtn colorBgc='#ec8312'>Save</SecondaryBtn>
+            <Btn primery fontSize='16px'>See more</Btn>
+            <Btn outlined>Save</Btn>
           </BoxBtn>
         </Card>
       </Box>
